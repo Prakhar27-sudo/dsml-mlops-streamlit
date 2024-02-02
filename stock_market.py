@@ -15,6 +15,8 @@ ticker_symbol =  st.text_input("Enter the stock ticker symbol:")
 start_date = st.date_input("Enter the start date", value=pd.to_datetime("2019-7-6"))
 end_date =  st.date_input("Enter the end date", value = pd.to_datetime("today"))
 
+##random changes
+
 
 
 ticker_data = yf.Ticker(ticker_symbol)
